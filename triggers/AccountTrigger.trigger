@@ -7,6 +7,7 @@ trigger AccountTrigger on Account (before update) {
             FlexaClass2.FirstMethod(trigger.new, trigger.oldMap);
             FlexaClass3.FirstMethod(trigger.new, trigger.oldMap);
             FlexaClass4.FirstMethod(trigger.new, trigger.oldMap);
+            FlexaClass5.FirstMethod(trigger.new, trigger.oldMap);
         }
     }
 }
