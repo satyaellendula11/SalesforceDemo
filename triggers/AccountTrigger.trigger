@@ -4,6 +4,8 @@ trigger AccountTrigger on Account (before update) {
         if(trigger.isUpdate)
         {
             FlexaClass1.FirstMethod(trigger.new, trigger.oldMap);
+            FlexaClass2.FirstMethod(trigger.new, trigger.oldMap);
+            FlexaClass3.FirstMethod(trigger.new, trigger.oldMap);
         }
     }
 }
