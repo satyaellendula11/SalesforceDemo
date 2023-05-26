@@ -2,11 +2,11 @@
 <CspTrustedSite xmlns="http://soap.sforce.com/2006/04/metadata">
     <context>All</context>
     <endpointUrl>https://www.amazon.in</endpointUrl>
-    <isActive>true</isActive>
-    <isApplicableToConnectSrc>true</isApplicableToConnectSrc>
+    <isActive>false</isActive>
+    <isApplicableToConnectSrc>false</isApplicableToConnectSrc>
     <isApplicableToFontSrc>false</isApplicableToFontSrc>
-    <isApplicableToFrameSrc>true</isApplicableToFrameSrc>
-    <isApplicableToImgSrc>true</isApplicableToImgSrc>
+    <isApplicableToFrameSrc>false</isApplicableToFrameSrc>
+    <isApplicableToImgSrc>false</isApplicableToImgSrc>
     <isApplicableToMediaSrc>false</isApplicableToMediaSrc>
     <isApplicableToStyleSrc>true</isApplicableToStyleSrc>
 </CspTrustedSite>
