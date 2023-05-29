@@ -3,7 +3,7 @@
     <canEncryptManagedPackageFields>true</canEncryptManagedPackageFields>
     <enableDeterministicEncryption>true</enableDeterministicEncryption>
     <enableEncryptFieldHistory>true</enableEncryptFieldHistory>
-    <enableEncryptionSearchEnabled>true</enableEncryptionSearchEnabled>
+    <enableEncryptionSearchEnabled>false</enableEncryptionSearchEnabled>
     <enableEventBusEncryption>true</enableEventBusEncryption>
     <isMEKForEncryptionRequired>true</isMEKForEncryptionRequired>
     <isUseHighAssuranceKeysRequired>false</isUseHighAssuranceKeysRequired>
