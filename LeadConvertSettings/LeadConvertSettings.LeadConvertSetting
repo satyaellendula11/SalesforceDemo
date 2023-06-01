@@ -20,6 +20,10 @@
     <objectMapping>
         <inputObject>Lead</inputObject>
         <mappingFields>
+            <inputField>CurrentGenerators__c</inputField>
+            <outputField>Languages__c</outputField>
+        </mappingFields>
+        <mappingFields>
             <inputField>Primary__c</inputField>
             <outputField>Level__c</outputField>
         </mappingFields>
