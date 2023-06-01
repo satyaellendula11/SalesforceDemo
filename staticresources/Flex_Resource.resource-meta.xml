@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
-    <cacheControl>Private</cacheControl>
+    <cacheControl>Public</cacheControl>
     <contentType>image/png</contentType>
-    <description>Test - FlexDeploy New Flex Resource 2</description>
+    <description>Test - FlexDeploy SR2</description>
 </StaticResource>
