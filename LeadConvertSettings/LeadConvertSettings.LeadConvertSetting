@@ -4,6 +4,10 @@
     <objectMapping>
         <inputObject>Lead</inputObject>
         <mappingFields>
+            <inputField>CurrentGenerators__c</inputField>
+            <outputField>Active__c</outputField>
+        </mappingFields>
+        <mappingFields>
             <inputField>NumberofLocations__c</inputField>
             <outputField>NumberofLocations__c</outputField>
         </mappingFields>
@@ -15,25 +19,41 @@
             <inputField>ProductInterest__c</inputField>
             <outputField>SLA__c</outputField>
         </mappingFields>
+        <mappingFields>
+            <inputField>SICCode__c</inputField>
+            <outputField>UpsellOpportunity__c</outputField>
+        </mappingFields>
         <outputObject>Account</outputObject>
     </objectMapping>
     <objectMapping>
         <inputObject>Lead</inputObject>
         <mappingFields>
-            <inputField>CurrentGenerators__c</inputField>
-            <outputField>Languages__c</outputField>
-        </mappingFields>
-        <mappingFields>
             <inputField>Primary__c</inputField>
             <outputField>Level__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>SICCode__c</inputField>
+            <outputField>Languages__c</outputField>
         </mappingFields>
         <outputObject>Contact</outputObject>
     </objectMapping>
     <objectMapping>
         <inputObject>Lead</inputObject>
         <mappingFields>
+            <inputField>CurrentGenerators__c</inputField>
+            <outputField>CurrentGenerators__c</outputField>
+        </mappingFields>
+        <mappingFields>
             <inputField>Primary__c</inputField>
             <outputField>TrackingNumber__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>ProductInterest__c</inputField>
+            <outputField>MainCompetitors__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>SICCode__c</inputField>
+            <outputField>DeliveryInstallationStatus__c</outputField>
         </mappingFields>
         <outputObject>Opportunity</outputObject>
     </objectMapping>
