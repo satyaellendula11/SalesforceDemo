@@ -29,15 +29,15 @@
          </layoutItems>
          <layoutItems>
             <behavior>Edit</behavior>
-            <field>Type</field>
-         </layoutItems>
-         <layoutItems>
-            <behavior>Edit</behavior>
             <field>Industry</field>
          </layoutItems>
          <layoutItems>
             <behavior>Required</behavior>
             <field>External_ID__c</field>
+         </layoutItems>
+         <layoutItems>
+            <behavior>Edit</behavior>
+            <field>Type</field>
          </layoutItems>
       </layoutColumns>
       <layoutColumns>
@@ -59,10 +59,6 @@
          </layoutItems>
          <layoutItems>
             <behavior>Edit</behavior>
-            <field>TickerSymbol</field>
-         </layoutItems>
-         <layoutItems>
-            <behavior>Edit</behavior>
             <field>Ownership</field>
          </layoutItems>
          <layoutItems>
@@ -71,7 +67,7 @@
          </layoutItems>
          <layoutItems>
             <behavior>Edit</behavior>
-            <field>Sic</field>
+            <field>AccountSource</field>
          </layoutItems>
       </layoutColumns>
       <style>TwoColumnsTopToBottom</style>
@@ -188,7 +184,7 @@
       <layoutColumns>
          <layoutItems>
             <behavior>Edit</behavior>
-            <field>AccountSource</field>
+            <field>TickerSymbol</field>
          </layoutItems>
       </layoutColumns>
       <layoutColumns>
@@ -208,6 +204,10 @@
          <layoutItems>
             <behavior>Edit</behavior>
             <field>AnnualRevenue</field>
+         </layoutItems>
+         <layoutItems>
+            <behavior>Edit</behavior>
+            <field>Sic</field>
          </layoutItems>
       </layoutColumns>
       <style>OneColumn</style>
