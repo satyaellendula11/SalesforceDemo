@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExternalDataSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customConfiguration>{&quot;makeProfileFls&quot;:&quot;false&quot;,&quot;timeout&quot;:&quot;20&quot;}</customConfiguration>
     <endpoint>https://login.salesforce.com</endpoint>
-    <isWritable>false</isWritable>
+    <isWritable>true</isWritable>
     <label>FlexDeploy Data Loader</label>
     <principalType>Anonymous</principalType>
     <protocol>NoAuthentication</protocol>
-    <type>SimpleURL</type>
+    <type>OpenSearch</type>
 </ExternalDataSource>
