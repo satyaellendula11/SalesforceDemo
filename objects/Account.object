@@ -1138,6 +1138,13 @@
       <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
    </searchLayouts>
    <sharingModel>ReadWrite</sharingModel>
+   <validationRules>
+      <fullName>Account_Source_VR</fullName>
+      <active>true</active>
+      <errorConditionFormula>ISPICKVAl(AccountSource,'Other')</errorConditionFormula>
+      <errorDisplayField>AccountSource</errorDisplayField>
+      <errorMessage>Please Select Account Source</errorMessage>
+   </validationRules>
    <webLinks>
       <fullName>Billing</fullName>
       <availability>online</availability>
