@@ -1,14 +1,9 @@
-trigger AccountTrigger on Account (before update) {
-	if(trigger.isBefore)
+trigger AccountTrigger on Account (before insert, before update) {
+	if(trigger.isInsert || trigger.isUpdate)
     {
-        if(trigger.isUpdate)
+        if(trigger.isBefore)
         {
-            FlexaClass1.FirstMethod(trigger.new, trigger.oldMap);
-            FlexaClass2.FirstMethod(trigger.new, trigger.oldMap);
-            FlexaClass3.FirstMethod(trigger.new, trigger.oldMap);
-            FlexaClass4.FirstMethod(trigger.new, trigger.oldMap);
-            FlexaClass5.FirstMethod(trigger.new, trigger.oldMap);
-            FlexaClass6.FirstMethod(trigger.new, trigger.oldMap);
+            AccountController.UpdateOwnership(trigger.new, trigger.oldMap);
         }
     }
 }
