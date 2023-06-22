@@ -3,7 +3,7 @@ trigger AccountTrigger on Account (before insert, before update) {
     {
         if(trigger.isInsert)
         {
-            AccountController.updateOwnership(trigger.new, trigger.oldMap);
+            AccountController.insertOwnership(trigger.new);
         }
         else if(trigger.isUpdate)
         {

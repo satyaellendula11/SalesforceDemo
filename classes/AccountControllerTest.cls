@@ -1,18 +1,6 @@
 @isTest
-private class AccountControllerTest {
-	/*
-    @testSetup
-    private static void createTestData()
-    {
-        Account acc = New Account();
-        acc.Name = 'Test Account';
-        acc.Rating = 'Hot';
-        acc.Ownership = 'Public';
-        acc.External_ID__c = 'TEST-1';
-        
-        Insert acc;
-    }
-    */
+private class AccountControllerTest 
+{
     @isTest(SeeAllData=true)
     private static void firstMethod()
     {
@@ -25,6 +13,27 @@ private class AccountControllerTest {
         
         Test.startTest();
         Update accList;
+        Test.stopTest();
+        
+        List<Account> checkResult = [SELECT ID, OwnerShip FROM Account WHERE OwnerShip='Private'];
+        
+        System.assertEquals(checkResult.size(), accList.size());
+    }
+    
+    @isTest
+    private static void secondMethod()
+    {
+        List<Account> accList = new List<Account>();
+        
+        Account acc = new Account();
+        acc.Name = 'Test Account';
+        acc.Rating = 'Cold';
+        acc.External_ID__c = 'TEST-1';
+        
+        accList.add(acc);
+
+        Test.startTest();
+        Insert accList;
         Test.stopTest();
         
         List<Account> checkResult = [SELECT ID, OwnerShip FROM Account WHERE OwnerShip='Private'];
