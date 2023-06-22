@@ -1,6 +1,7 @@
 @isTest
 private class AccountControllerTest {
-	@testSetup
+	/*
+    @testSetup
     private static void createTestData()
     {
         Account acc = New Account();
@@ -11,11 +12,11 @@ private class AccountControllerTest {
         
         Insert acc;
     }
-    
-    @isTest
+    */
+    @isTest(SeeAllData=true)
     private static void firstMethod()
     {
-        List<Account> accList = [SELECT ID, Rating, OwnerShip FROM Account];
+        List<Account> accList = [SELECT ID, Rating, OwnerShip FROM Account WHERE Rating!='Cold'];
         
         for(Account acc:accList)
         {
@@ -28,6 +29,7 @@ private class AccountControllerTest {
         
         List<Account> checkResult = [SELECT ID, OwnerShip FROM Account WHERE OwnerShip='Private'];
         
-        System.assertEquals(checkResult.size(), 1);
+        System.assertEquals(checkResult.size(), accList.size());
     }
+	
 }

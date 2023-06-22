@@ -1,5 +1,9 @@
+//Account Object Controller Class
 public class AccountController {
-	public static void UpdateOwnership(List<Account> accList, Map<Id, Account>oldMap)
+    /**
+ 	 	@description - If account rating changed to Cold, ownership will set to Private
+ 	*/
+	public static void updateOwnership(List<Account> accList, Map<Id, Account>oldMap)
     {
         for(Account acc:accList)
         {
