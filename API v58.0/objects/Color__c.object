@@ -153,19 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Color_ID__c</fullName>
-        <caseSensitive>false</caseSensitive>
-        <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
-        <label>Color ID</label>
-        <length>3</length>
-        <required>true</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>true</unique>
-    </fields>
     <label>Color</label>
     <listViews>
         <fullName>All</fullName>
@@ -181,12 +168,5 @@
     <pluralLabel>Colors</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>Color_ID_VR</fullName>
-        <active>true</active>
-        <errorConditionFormula>NOT(ISNUMBER(Color_ID__c))</errorConditionFormula>
-        <errorDisplayField>Color_ID__c</errorDisplayField>
-        <errorMessage>Color ID Accepts Only Characters</errorMessage>
-    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
