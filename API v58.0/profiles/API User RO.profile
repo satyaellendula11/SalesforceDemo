@@ -227,64 +227,64 @@
    </classAccesses>
    <custom>true</custom>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.AccountNumber</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.AccountSource</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Active__c</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.AnnualRevenue</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.BillingAddress</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>false</editable>
       <field>Account.CleanStatus</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.CustomerPriority__c</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>false</editable>
       <field>Account.DandbCompanyId</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Description</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>false</editable>
       <field>Account.DunsNumber</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Fax</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Industry</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>false</editable>
@@ -292,119 +292,119 @@
       <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Jigsaw</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>false</editable>
       <field>Account.NaicsCode</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>false</editable>
       <field>Account.NaicsDesc</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.NumberOfEmployees</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.NumberofLocations__c</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.OperatingHoursId</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Ownership</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.ParentId</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Phone</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Rating</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.SLAExpirationDate__c</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.SLASerialNumber__c</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.SLA__c</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.ShippingAddress</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Sic</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.SicDesc</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Site</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.TickerSymbol</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>false</editable>
       <field>Account.Tradestyle</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Type</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.UpsellOpportunity__c</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Website</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>false</editable>
       <field>Account.YearStarted</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>true</editable>
@@ -4418,24 +4418,6 @@
       <allowEdit>false</allowEdit>
       <allowRead>true</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
-      <object>Account</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
-      <object>Asset</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
       <object>AuthorizationForm</object>
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
@@ -4500,15 +4482,6 @@
       <allowRead>true</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
       <object>ChannelProgramLevel</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
-      <object>ChannelProgramMember</object>
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
    <objectPermissions>
@@ -4607,15 +4580,6 @@
       <allowEdit>false</allowEdit>
       <allowRead>true</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
-      <object>Contract</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
       <object>ContractLineItem</object>
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
@@ -4653,24 +4617,6 @@
       <allowRead>true</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
       <object>EngagementChannelType</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
-      <object>Entitlement</object>
-      <viewAllRecords>false</viewAllRecords>
-   </objectPermissions>
-   <objectPermissions>
-      <allowCreate>false</allowCreate>
-      <allowDelete>false</allowDelete>
-      <allowEdit>false</allowEdit>
-      <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
-      <object>EntitlementContact</object>
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
    <objectPermissions>
@@ -5279,6 +5225,14 @@
    <tabVisibilities>
       <tab>standard-WorkStepTemplate</tab>
       <visibility>Hidden</visibility>
+   </tabVisibilities>
+   <tabVisibilities>
+      <tab>standard-Account</tab>
+      <visibility>DefaultOff</visibility>
+   </tabVisibilities>
+   <tabVisibilities>
+      <tab>standard-WorkTypeGroup</tab>
+      <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
    <userPermissions>
