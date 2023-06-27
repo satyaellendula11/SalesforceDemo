@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CareBenefitVerifySettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <codeSetType>58.0</codeSetType>
+    <defaultNpi>SYS</defaultNpi>
+    <generalPlanServiceTypeCode>SGR-40</generalPlanServiceTypeCode>
     <isDefault>true</isDefault>
-    <masterLabel>Diabities</masterLabel>
+    <masterLabel>Diabities1</masterLabel>
     <organizationName>Health Care</organizationName>
+    <serviceApexClass>HealthCloudGA__HcCareTeamController</serviceApexClass>
+    <uriPath>https://healthcare.org</uriPath>
 </CareBenefitVerifySettings>
