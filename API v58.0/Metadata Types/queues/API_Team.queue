@@ -7,7 +7,7 @@
             <role>Sales_Manager</role>
         </roles>
         <users>
-            <user>akash@flexagon.source</user>
+            <user>akash@flexagon.target</user>
         </users>
     </queueMembers>
     <queueSobject>
