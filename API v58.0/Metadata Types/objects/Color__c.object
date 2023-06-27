@@ -188,6 +188,19 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Colors</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Primary_Color</fullName>
+        <active>true</active>
+        <description>A set of primary colors or primary colours consists of colorants or colored lights that can be mixed in varying amounts to produce a gamut of colors.</description>
+        <label>Primary Color</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Secondary_Color</fullName>
+        <active>true</active>
+        <description>The color made by mixing of two primary colors in a given color space</description>
+        <label>Secondary Color</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
