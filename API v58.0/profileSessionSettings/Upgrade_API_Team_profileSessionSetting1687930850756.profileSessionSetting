@@ -6,5 +6,5 @@
     <requiredSessionLevel>HIGH_ASSURANCE</requiredSessionLevel>
     <sessionPersistence>false</sessionPersistence>
     <sessionTimeout>1440</sessionTimeout>
-    <sessionTimeoutWarning>false</sessionTimeoutWarning>
+    <sessionTimeoutWarning>true</sessionTimeoutWarning>
 </ProfileSessionSetting>
