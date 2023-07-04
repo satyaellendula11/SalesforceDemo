@@ -5,6 +5,6 @@
     <profile>upgrade api team</profile>
     <requiredSessionLevel>HIGH_ASSURANCE</requiredSessionLevel>
     <sessionPersistence>false</sessionPersistence>
-    <sessionTimeout>1440</sessionTimeout>
+    <sessionTimeout>720</sessionTimeout>
     <sessionTimeoutWarning>true</sessionTimeoutWarning>
 </ProfileSessionSetting>
