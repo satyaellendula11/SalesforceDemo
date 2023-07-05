@@ -4133,6 +4133,8 @@
    <loginHours>
       <sundayEnd>0</sundayEnd>
       <sundayStart>0</sundayStart>
+      <mondayEnd>1140</mondayEnd>
+      <mondayStart>600</mondayStart>
    </loginHours>
    <objectPermissions>
       <allowCreate>true</allowCreate>
