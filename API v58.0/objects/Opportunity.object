@@ -256,7 +256,7 @@
       <fullName>New_Opportunity__c</fullName>
       <defaultValue>false</defaultValue>
       <externalId>false</externalId>
-      <label>New Opportunity</label>
+      <label>New</label>
       <trackFeedHistory>false</trackFeedHistory>
       <trackTrending>false</trackTrending>
       <type>Checkbox</type>
