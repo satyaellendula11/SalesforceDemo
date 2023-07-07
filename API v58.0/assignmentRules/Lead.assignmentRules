@@ -4,7 +4,7 @@
       <fullName>Standard</fullName>
       <active>true</active>
       <ruleEntry>
-         <assignedTo>akash@dev58.zero</assignedTo>
+         <assignedTo>akash@dev58.target</assignedTo>
          <assignedToType>User</assignedToType>
          <criteriaItems>
             <field>Lead.Country</field>
@@ -13,7 +13,7 @@
          </criteriaItems>
       </ruleEntry>
       <ruleEntry>
-         <assignedTo>akash@dev58.zero</assignedTo>
+         <assignedTo>akash@dev58.target</assignedTo>
          <assignedToType>User</assignedToType>
          <criteriaItems>
             <field>Lead.Country</field>
@@ -22,7 +22,7 @@
          </criteriaItems>
       </ruleEntry>
       <ruleEntry>
-         <assignedTo>akash@dev58.zero</assignedTo>
+         <assignedTo>akash@dev58.target</assignedTo>
          <assignedToType>User</assignedToType>
          <criteriaItems>
             <field>Lead.GenderIdentity</field>
