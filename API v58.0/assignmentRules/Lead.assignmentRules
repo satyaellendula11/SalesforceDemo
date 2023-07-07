@@ -21,5 +21,27 @@
             <value>US,USA,United States,United States of America</value>
          </criteriaItems>
       </ruleEntry>
+      <ruleEntry>
+         <assignedTo>Lead_Q</assignedTo>
+         <assignedToType>Queue</assignedToType>
+         <criteriaItems>
+            <field>Lead.IsConverted</field>
+            <operation>notEqual</operation>
+            <value>False</value>
+         </criteriaItems>
+      </ruleEntry>
+   </assignmentRule>
+   <assignmentRule>
+      <fullName>Standard Lead AR</fullName>
+      <active>true</active>
+      <ruleEntry>
+         <assignedTo>Lead_Q</assignedTo>
+         <assignedToType>Queue</assignedToType>
+         <criteriaItems>
+            <field>Lead.Company</field>
+            <operation>equals</operation>
+            <value>US,USA,United States,United States of America</value>
+         </criteriaItems>
+      </ruleEntry>
    </assignmentRule>
 </AssignmentRules>
