@@ -226,6 +226,55 @@
       <type>Text</type>
    </nameField>
    <pluralLabel>Books</pluralLabel>
+   <recordTypeTrackHistory>false</recordTypeTrackHistory>
+   <recordTypes>
+      <fullName>International</fullName>
+      <active>true</active>
+      <label>International</label>
+      <picklistValues>
+         <picklist>Book_Type_Code__c</picklist>
+         <values>
+            <fullName>ED</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>GK</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>MV</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>RS</fullName>
+            <default>true</default>
+         </values>
+      </picklistValues>
+   </recordTypes>
+   <recordTypes>
+      <fullName>National</fullName>
+      <active>true</active>
+      <label>National</label>
+      <picklistValues>
+         <picklist>Book_Type_Code__c</picklist>
+         <values>
+            <fullName>DS</fullName>
+            <default>true</default>
+         </values>
+         <values>
+            <fullName>ED</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>GK</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>MV</fullName>
+            <default>false</default>
+         </values>
+      </picklistValues>
+   </recordTypes>
    <searchLayouts/>
    <sharingModel>ReadWrite</sharingModel>
    <visibility>Public</visibility>
