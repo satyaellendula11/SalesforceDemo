@@ -213,6 +213,40 @@
       <trackTrending>false</trackTrending>
       <type>Checkbox</type>
    </fields>
+   <fields>
+      <fullName>Company_Mark__c</fullName>
+      <externalId>false</externalId>
+      <label>Company Mark</label>
+      <required>false</required>
+      <trackHistory>false</trackHistory>
+      <trackTrending>false</trackTrending>
+      <type>Picklist</type>
+      <valueSet>
+         <controllingField>Publish_Status__c</controllingField>
+         <restricted>true</restricted>
+         <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+               <fullName>True</fullName>
+               <default>false</default>
+               <label>True</label>
+            </value>
+            <value>
+               <fullName>False</fullName>
+               <default>false</default>
+               <label>False</label>
+            </value>
+         </valueSetDefinition>
+         <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>False</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>True</valueName>
+         </valueSettings>
+      </valueSet>
+   </fields>
    <label>Company</label>
    <listViews>
       <fullName>All</fullName>
