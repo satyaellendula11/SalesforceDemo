@@ -239,6 +239,7 @@
          </valueSetDefinition>
          <valueSettings>
             <controllingFieldValue>No</controllingFieldValue>
+            <controllingFieldValue>Yes</controllingFieldValue>
             <valueName>False</valueName>
          </valueSettings>
          <valueSettings>
