@@ -4207,7 +4207,9 @@
       <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
    </layoutAssignments>
    <loginHours>
-      <saturdayEnd>720</saturdayEnd>
+      <mondayEnd>1080</mondayEnd>
+      <mondayStart>540</mondayStart>
+      <saturdayEnd>780</saturdayEnd>
       <saturdayStart>600</saturdayStart>
       <sundayEnd>780</sundayEnd>
       <sundayStart>600</sundayStart>
