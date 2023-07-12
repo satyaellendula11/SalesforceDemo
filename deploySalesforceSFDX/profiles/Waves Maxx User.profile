@@ -5388,6 +5388,10 @@
       <tab>standard-Waitlist</tab>
       <visibility>DefaultOff</visibility>
    </tabVisibilities>
+   <tabVisibilities>
+      <tab>standard-PromotionSegment</tab>
+      <visibility>DefaultOn</visibility>
+   </tabVisibilities>
    <userLicense>Salesforce</userLicense>
    <userPermissions>
       <enabled>true</enabled>
