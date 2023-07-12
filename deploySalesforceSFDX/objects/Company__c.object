@@ -238,13 +238,12 @@
             </value>
          </valueSetDefinition>
          <valueSettings>
-            <controllingFieldValue>No</controllingFieldValue>
             <controllingFieldValue>Yes</controllingFieldValue>
-            <valueName>False</valueName>
+            <valueName>True</valueName>
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>Yes</controllingFieldValue>
-            <valueName>True</valueName>
+            <valueName>False</valueName>
          </valueSettings>
       </valueSet>
    </fields>
