@@ -225,7 +225,15 @@
       <type>Text</type>
    </nameField>
    <pluralLabel>Companies</pluralLabel>
-   <searchLayouts/>
+   <profileSearchLayouts>
+      <fields>NAME</fields>
+      <fields>Company_ID__c</fields>
+      <fields>OWNER.FIRST_NAME</fields>
+      <profileName>System Administrator</profileName>
+   </profileSearchLayouts>
+   <searchLayouts>
+      <searchResultsAdditionalFields>Company_ID__c</searchResultsAdditionalFields>
+   </searchLayouts>
    <sharingModel>ReadWrite</sharingModel>
    <validationRules>
       <fullName>Date_Validation_Company</fullName>
