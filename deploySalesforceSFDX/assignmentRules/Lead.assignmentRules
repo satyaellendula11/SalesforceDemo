@@ -7,9 +7,9 @@
          <assignedTo>Lead_Q</assignedTo>
          <assignedToType>Queue</assignedToType>
          <criteriaItems>
-            <field>Lead.Country</field>
+            <field>Lead.CleanStatus</field>
             <operation>equals</operation>
-            <value>US,USA,United States,United States of America</value>
+            <value>Skipped,Select Match</value>
          </criteriaItems>
       </ruleEntry>
       <ruleEntry>
@@ -32,9 +32,9 @@
          <assignedTo>Lead_Q</assignedTo>
          <assignedToType>Queue</assignedToType>
          <criteriaItems>
-            <field>Lead.CleanStatus</field>
+            <field>Lead.Country</field>
             <operation>equals</operation>
-            <value>Skipped,Select Match</value>
+            <value>US,USA,United States,United States of America</value>
          </criteriaItems>
       </ruleEntry>
       <ruleEntry>
