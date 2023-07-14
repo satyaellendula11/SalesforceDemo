@@ -7,6 +7,15 @@
          <assignedTo>Lead_Q</assignedTo>
          <assignedToType>Queue</assignedToType>
          <criteriaItems>
+            <field>Lead.City</field>
+            <operation>equals</operation>
+            <value>Nagpur</value>
+         </criteriaItems>
+      </ruleEntry>
+      <ruleEntry>
+         <assignedTo>Lead_Q</assignedTo>
+         <assignedToType>Queue</assignedToType>
+         <criteriaItems>
             <field>Lead.CleanStatus</field>
             <operation>equals</operation>
             <value>Skipped,Select Match</value>
