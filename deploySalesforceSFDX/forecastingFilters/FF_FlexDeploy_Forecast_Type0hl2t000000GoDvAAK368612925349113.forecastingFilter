@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterLogic>1</filterLogic>
+    <forecastingType>FlexDeploy_Forecast_Type</forecastingType>
+    <forecastingTypeSource>FTS_FlexDeploy_Forecast_Type7sy2t000000I8RAAA0058814010440986</forecastingTypeSource>
+    <isProtected>false</isProtected>
+    <masterLabel>FF_FlexDeploy_Forecast_Type0hl2t000000GoDvAAK368612925349113</masterLabel>
+</ForecastingFilter>
