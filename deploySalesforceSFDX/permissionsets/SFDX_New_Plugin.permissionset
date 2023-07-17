@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <hasActivationRequired>false</hasActivationRequired>
-    <label>SFDX New Plugin</label>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Account.AccountNumber</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <hasActivationRequired>false</hasActivationRequired>
+   <label>SFDX New Plugin</label>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>false</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>false</modifyAllRecords>
+      <object>Account</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
 </PermissionSet>
