@@ -4214,6 +4214,10 @@
       <sundayEnd>780</sundayEnd>
       <sundayStart>600</sundayStart>
    </loginHours>
+   <loginIpRanges>
+      <endAddress>255.255.255.255</endAddress>
+      <startAddress>0.0.0.0</startAddress>
+   </loginIpRanges>
    <objectPermissions>
       <allowCreate>true</allowCreate>
       <allowDelete>true</allowDelete>
@@ -5387,10 +5391,6 @@
    <tabVisibilities>
       <tab>standard-Waitlist</tab>
       <visibility>DefaultOff</visibility>
-   </tabVisibilities>
-   <tabVisibilities>
-      <tab>standard-PromotionSegment</tab>
-      <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
    <userPermissions>
