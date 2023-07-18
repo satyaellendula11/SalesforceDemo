@@ -3,6 +3,9 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Lead Qe</name>
     <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
         <sobjectType>Lead</sobjectType>
     </queueSobject>
 </Queue>
