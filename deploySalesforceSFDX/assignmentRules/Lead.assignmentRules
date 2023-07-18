@@ -13,12 +13,15 @@
          </criteriaItems>
       </ruleEntry>
       <ruleEntry>
-         <assignedTo>Lead_Q</assignedTo>
-         <assignedToType>Queue</assignedToType>
          <criteriaItems>
-            <field>Lead.IsConverted</field>
+            <field>Lead.City</field>
+            <operation>equals</operation>
+            <value>Mumbai</value>
+         </criteriaItems>
+         <criteriaItems>
+            <field>Lead.Primary__c</field>
             <operation>notEqual</operation>
-            <value>False</value>
+            <value>Yes</value>
          </criteriaItems>
       </ruleEntry>
       <ruleEntry>
@@ -38,17 +41,19 @@
             <operation>notEqual</operation>
             <value>IND</value>
          </criteriaItems>
+         <criteriaItems>
+            <field>Lead.Title</field>
+            <operation>contains</operation>
+            <value>Developer</value>
+         </criteriaItems>
       </ruleEntry>
       <ruleEntry>
+         <assignedTo>Lead_Q</assignedTo>
+         <assignedToType>Queue</assignedToType>
          <criteriaItems>
-            <field>Lead.City</field>
-            <operation>equals</operation>
-            <value>Mumbai</value>
-         </criteriaItems>
-         <criteriaItems>
-            <field>Lead.Primary__c</field>
+            <field>Lead.IsConverted</field>
             <operation>notEqual</operation>
-            <value>Yes</value>
+            <value>False</value>
          </criteriaItems>
       </ruleEntry>
    </assignmentRule>
