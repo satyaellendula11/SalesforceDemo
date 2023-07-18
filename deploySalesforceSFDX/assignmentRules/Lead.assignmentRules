@@ -38,12 +38,15 @@
          </criteriaItems>
       </ruleEntry>
       <ruleEntry>
-         <assignedTo>Lead_Q</assignedTo>
-         <assignedToType>Queue</assignedToType>
          <criteriaItems>
             <field>Lead.City</field>
             <operation>equals</operation>
-            <value>Nagpur</value>
+            <value>Mumbai</value>
+         </criteriaItems>
+         <criteriaItems>
+            <field>Lead.Primary__c</field>
+            <operation>notEqual</operation>
+            <value>Yes</value>
          </criteriaItems>
       </ruleEntry>
    </assignmentRule>
