@@ -22,6 +22,13 @@
          </criteriaItems>
       </ruleEntry>
       <ruleEntry>
+         <criteriaItems>
+            <field>Lead.Primary__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+         </criteriaItems>
+      </ruleEntry>
+      <ruleEntry>
          <assignedTo>Lead_Q</assignedTo>
          <assignedToType>Queue</assignedToType>
          <criteriaItems>
