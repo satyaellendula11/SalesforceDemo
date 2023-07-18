@@ -48,13 +48,6 @@
             <value>Nagpur</value>
          </criteriaItems>
       </ruleEntry>
-      <ruleEntry>
-         <criteriaItems>
-            <field>Lead.DoNotCall</field>
-            <operation>equals</operation>
-            <value>True</value>
-         </criteriaItems>
-      </ruleEntry>
    </assignmentRule>
    <assignmentRule>
       <fullName>Standard Lead AR</fullName>
