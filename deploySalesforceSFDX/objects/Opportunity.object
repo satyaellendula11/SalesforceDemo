@@ -442,7 +442,7 @@
     </validationRules>
     <validationRules>
         <fullName>Opportunity_Stage</fullName>
-        <active>false</active>
+        <active>true</active>
         <description>If Stage is Closed Lost, Then Error Will Occurred.</description>
         <errorConditionFormula>ISPICKVAL(StageName, &apos;Closed Lost&apos;)</errorConditionFormula>
         <errorMessage>Opportunity Closed Lost</errorMessage>
