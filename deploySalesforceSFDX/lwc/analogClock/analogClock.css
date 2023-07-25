@@ -1,0 +1,36 @@
+/* AnalogClock.css */
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom;
+}
+
+.hour-hand {
+    height: 50px;
+    width: 6px;
+    background-color: #333;
+}
+
+.minute-hand {
+    height: 75px;
+    width: 4px;
+    background-color: #666;
+}
+
+.second-hand {
+    height: 85px;
+    width: 2px;
+    background-color: red;
+}
