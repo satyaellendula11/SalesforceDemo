@@ -1,0 +1,14 @@
+<apex:page standardController="Account" extensions="CreateAccountFromHomePageController">
+    <apex:form >
+        <apex:pageBlock title="Create New Account">
+            <apex:pageBlockSection >
+                <apex:inputField value="{!Account.Name}" required="true" label="Account Name"/>
+                <apex:inputField value="{!Account.Phone}" required="true" label="Phone"/>
+                <!-- Add more fields here as needed -->
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!saveAccount}" value="Save"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
