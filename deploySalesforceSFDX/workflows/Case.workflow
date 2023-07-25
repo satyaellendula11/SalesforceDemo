@@ -44,7 +44,7 @@
     </rules>
     <tasks>
         <fullName>Case_Escalation_Task</fullName>
-        <assignedTo>akash@dev58.zero</assignedTo>
+        <assignedTo>akash@dev58.target</assignedTo>
         <assignedToType>user</assignedToType>
         <dueDateOffset>5</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>
