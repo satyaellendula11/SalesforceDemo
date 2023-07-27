@@ -16,7 +16,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>CancelEdit</actionName>
-        <type>Default</type>
+        <type>Standard</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>CancelEdit</actionName>
