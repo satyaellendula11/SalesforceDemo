@@ -13,11 +13,7 @@
       <actionName>CallHighlightAction</actionName>
       <formFactor>Small</formFactor>
       <type>Default</type>
-   </actionOverrides>
-   <actionOverrides>
-      <actionName>CancelEdit</actionName>
-      <type>Scontrol</type>
-   </actionOverrides>
+   </actionOverrides>  
    <actionOverrides>
       <actionName>CancelEdit</actionName>
       <formFactor>Large</formFactor>
