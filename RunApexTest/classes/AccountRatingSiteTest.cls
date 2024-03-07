@@ -6,7 +6,7 @@ private class AccountRatingSiteTest {
         Account acc = New Account();
         acc.Name = 'Test';
         acc.Rating = 'Hot';
-       // acc.External_ID__c = 'T-1';
+       // acc.External_ID__c = 'T-1'; sssssssssssssssssssssssssssss
         
         Test.startTest();
         INSERT acc;
